@@ -117,7 +117,7 @@ export default function PatientDashboard() {
         {/* Welcome Message */}
         <div className="mb-6">
           <h2 className="text-xl font-semibold">
-            Welcome, <span className="text-indigo-600">{patientData?.name || "Vidhath"}</span>
+            Welcome <span className="text-indigo-600">{patientData?.name}</span>
           </h2>
           <p className="text-gray-600">Your current queue status</p>
         </div>
